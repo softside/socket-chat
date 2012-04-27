@@ -1,4 +1,4 @@
-var socket = io.connect("http://172.23.4.8:1377");
+var socket = io.connect("http://127.0.0.1:1377");
 
 socket.on('quit', function (data) {
     status('Client ' + data.cid + ' quits!');

@@ -1,6 +1,6 @@
 var express = require('express');
 
-var app = express();
+var app = express.createServer();
 var io = require('socket.io').listen(1377);
 
 app.configure(function () {
@@ -34,7 +34,7 @@ io.sockets.on('connection', function (socket) {
     });
 
     socket.on('say', function (data) {
-        data.cid = nickname;
+        data.cid = cid; 
         for(var ccid in conns) {
             var soc = conns[ccid];
             soc.emit('broadcast', data);
