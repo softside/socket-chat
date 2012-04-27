@@ -2,7 +2,7 @@
 
 
 ## What`s this
-This projectjust copy from
+This project just copy from
 [socket.io](https://github.com/LearnBoost/socket.io) `s example
 chat, and some dependencies have been removed.
 
@@ -17,6 +17,7 @@ then we can focus on socket.io
 ## How to run
 
 install npm ，it will install node ,too.
+
     npm install express -g
     npm install socket.io -g
     git clone socket-cat
