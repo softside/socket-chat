@@ -1,25 +1,20 @@
 # socket-chat
 
 
-## what`s this
+## What`s this
 This project is just copy from
-[socket.io]('https://github.com/LearnBoost/socket.io') `s example
-chat, 
-[socket.io]('https://github.com/LearnBoost/socket.io')
-,and remove some dependencies. 
+[socket.io](https://github.com/LearnBoost/socket.io) `s example
+chat, and some dependencies have been removed.
 
-## why this
+## Why this
 
-For newbie on both node.js and socket.io, like me ,
-when I have some interesting on socket,
-I just clone
-[socket.io]('https://github.com/LearnBoost/socket.io'),however,maybe I
-miss somthing ,I cannot run it .when I check the code ,there is
-express,jade,nib,stylues, too much stuff。so remove these,give us a
-clear view. so we can focus on socket.io
+When I have some interest on socket, as a newbie on both node.js
+and socket.io, I just clone socket.io. However, I cannot run chat example for I
+maybe miss something. When I check the code, there are express, jade,
+nib, stylues, too many stuffs. So removing these give us a clear view,
+then we can focus on socket.io
 
-
-## todo
+## TODO
 
 save the data to reids or mongodb
 
