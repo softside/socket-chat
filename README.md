@@ -20,8 +20,8 @@ install npm ，it will install node ,too.
 
     npm install express -g
     npm install socket.io -g
-    git clone socket-cat
-    cd socket-cat
+    git clone socket-chat
+    cd socket-chat
     node app.js
 
 ## TODO
